@@ -336,7 +336,6 @@ def mod07_로드():
         pass  # 파일이 없거나 읽기 실패 시 빈 리스트 유지
     return 데이터목록
 
-
 def mod07_저장(데이터목록):
     try:
         with open(FILE_PATH, "w", encoding="utf-8") as 파일:
